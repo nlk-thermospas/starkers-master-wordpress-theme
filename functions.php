@@ -151,9 +151,9 @@
 			if($entries['16.1'] == "Yes") {
 				$comments = '{"Joing Mailing List" : "' . $entries['16.1'] . '"}';
 			}
-			$sql .= "(name, address1, city, state, zipcode, phone, email, comments, iref, ht_date)";
+			$sql .= "(name, zipcode, phone, email, iref, ht_date)";
 			$sql .= "VALUES";
-			$sql .=	"('" . $entries[9] . "', '" . $entries[5] . "', '" . $entries[6] . "', '" . $entries[10] . "', '" . $entries[4] . "', '" . $entries[14] . "', '" . $entries[8] . "', '" . $comments . "', '" . $iref . "', '" . date("Y-m-d") . "')";
+			$sql .=	"('" . $entries[9] . "', '" . $entries[4] . "', '" . $entries[14] . "', '" . $entries[8] . "', '" . $iref . "', '" . date("Y-m-d") . "')";
 		} elseif($entries['form_id'] == 2) { //sidebar
 			$iref = "iSide";
 			if($entries['9.1'] == "Yes") {
