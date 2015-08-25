@@ -178,9 +178,9 @@
 			$sql .=	"('" . $entries[11] . "', '" . $entries[2] . "', '" . $entries[3] . "', '" . $entries[4] . "', '" . $entries[6] . "', '" . $entries[12] . "', '" . $entries[8] . "', '" . $comments . "', '" . $iref . "', '" . date("Y-m-d") . "')";
 		} elseif($entries['form_id'] == 5) { //get pricing
 			$iref = "iPrice";
-			$sql .= "(name, address1, city, state, zipcode, phone, email, comments, iref, ht_date)";
+			$sql .= "(name, zipcode, phone, email, iref, ht_date)";
 			$sql .= "VALUES";
-			$sql .=	"('" . $entries[8] . "', '" . $entries[4] . "', '" . $entries[5] . "', '" . $entries[11] . "', '" . $entries[2] . "', '" . $entries[9] . "', '" . $entries[7] . "', '" . $comments . "', '" . $iref . "', '" . date("Y-m-d") . "')";
+			$sql .=	"('" . $entries[8] . "', '" . $entries[2] . "', '" . $entries[9] . "', '" . $entries[7] . "', '" . $iref . "', '" . date("Y-m-d") . "')";
 		}
 
 		if($conn->query($sql) === false) {
