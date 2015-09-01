@@ -14,6 +14,12 @@
  * @since 		Starkers 4.0
  */
 ?>
+<style>
+	.promo .privacy p
+	{
+		margin-top: -5px !important;
+	}
+</style>
 <?php Starkers_Utilities::get_template_parts( array( 'html-header', 'header' ) ); ?>
 
 
