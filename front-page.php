@@ -19,7 +19,7 @@
 <style>
 	.promo .privacy p
 	{
-		margin-top: -20px !important;
+		margin-top: -10px !important;
 	}
 </style>
 
