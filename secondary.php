@@ -75,7 +75,7 @@
 <div class="free-media">
 	<h4>Get a Free Brochure, DVD &amp; $1,000 Coupon!</h4>
 	<img src="/dress/secondary/free-media.jpg" alt="Get a Free Brochure, DVD &amp; $1,000 Coupon!" />
-	<a class="btn red-btn" href="/get-free-brochure-dvd-1000-coupon">Get Yours Now!</a>
+	<a class="btn red-btn" href="/download-brochure/">Get Yours Now!</a>
 </div>
 
 <div class="recent-posts">
