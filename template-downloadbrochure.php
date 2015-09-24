@@ -142,7 +142,8 @@
 							<h3>Awards & Recognition</h3>
 						</div>
 						<div class="col-xs-12 col-sm-6 col-md-8">
-							<img src="<?php bloginfo('template_url'); ?>/bootstrap/images/awards_and_recognition.png" class="ximg-responsive xfloat-right-md"/>
+							<img src="<?php bloginfo('template_url'); ?>/bootstrap/images/awards_and_recognition.png" class="img-responsive xfloat-right-md hidden-xs"/>
+							<img src="<?php bloginfo('template_url'); ?>/bootstrap/images/awards_and_recognition_xs.png" class="img-responsive xfloat-right-md visible-xs-block"/>
 						</div>
 					</div>
 				</div>
