@@ -93,7 +93,7 @@ if($main != "") {
 	</style>
 	<div class="primary" id="maincontentprimary">
 		
-		<div class="billboard" style="background: url(<?php the_field('billboard_image'); ?>) no-repeat left top">
+		<div class="billboard" style="background: url(<?php the_field('billboard_image'); ?>) no-repeat left top; height: 366px;">
 				<div class="billboard-content-container">
 					<div class="billboard-content">
 						<h2><?php the_field('billboard_heading'); ?></h2>
