@@ -61,11 +61,12 @@ if($main != "") {
 			min-height: 330px;
 			margin-bottom: 20px;
 		}
-		.recommended-hot-tubs ul li h3
+		.recommended-hot-tubs ul li h3, .recommended-hot-tubs ul li h3 a
 		{
 			color: #00539a;
 			font-size: 21px;
 			line-height: 25px;
+			text-decoration: none;
 		}
 		
 		.recommended-hot-tubs ul li p
