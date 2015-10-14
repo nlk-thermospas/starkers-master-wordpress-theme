@@ -82,6 +82,11 @@ if($main != "") {
 			line-height: 25px;
 		}
 		
+		article h3 a
+		{
+			text-decoration: none !important;	
+		}
+		
 		article
 		{
 			padding-top: 50px;
