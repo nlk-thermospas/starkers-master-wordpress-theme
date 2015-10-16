@@ -156,7 +156,8 @@
 			$sql .=	"('" . $entries[9] . "', '" . $entries[4] . "', '" . $entries[14] . "', '" . $entries[8] . "', '" . $iref . "', '" . date("Y-m-d") . "')";
 		} elseif($entries['form_id'] == 2) { //sidebar
 			$iref = "iSide";
-			if($entries['9.1'] == "Yes") {
+			$comments = '{"Joing Mailing List" : "No"}';
+			if(isset($entries['9.1']) && $entries['9.1'] == "Yes") {
 				$comments = '{"Joing Mailing List" : "' . $entries['9.1'] . '"}';
 			}
 			$sql .= "(name, zipcode, phone, email, comments, iref, ht_date)";
@@ -164,7 +165,8 @@
 			$sql .=	"('" . $entries[8] . "', '" . $entries[2] . "', '" . $entries[10] . "', '" . $entries[7] . "', '" . $comments . "', '" . $iref . "', '" . date("Y-m-d") . "')";
 		} elseif($entries['form_id'] == 3) { //dvd/brochure
 			$iref = "iDVD";
-			if($entries['12.1'] == "Yes") {
+			$comments = '{"Joing Mailing List" : "No"}';
+			if(isset($entries['12.1']) && $entries['12.1'] == "Yes") {
 				$comments = '{"Joing Mailing List" : "' . $entries['12.1'] . '"}';
 			}
 			$sql .= "(name, address1, city, state, zipcode, phone, email, comments, iref, ht_date)";
