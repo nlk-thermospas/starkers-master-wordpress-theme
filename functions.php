@@ -148,7 +148,7 @@
 
 		if($entries['form_id'] == 1) { //homepage
 			$iref = "iHome";
-			if($entries['16.1'] == "Yes") {
+			if(isset($entries['16.1']) && $entries['16.1'] == "Yes") {
 				$comments = '{"Joing Mailing List" : "' . $entries['16.1'] . '"}';
 			}
 			$sql .= "(name, zipcode, phone, email, iref, ht_date)";
