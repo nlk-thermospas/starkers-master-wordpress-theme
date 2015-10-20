@@ -53,7 +53,7 @@
 
 			<div class="pagination">
 				<p class="nav-previous alignleft"><?php next_posts_link( 'Next Page' ); ?></p>
-				<p class="nav-next alignright"><?php if(isset($custom_query)) previous_posts_link( 'Previous Page', $custom_query->max_num_pages ); ?></p>
+				<p class="nav-next alignright"><?php previous_posts_link( 'Previous Page'); ?></p>
 			</div>
 		</article>
 	<?php else: ?>
