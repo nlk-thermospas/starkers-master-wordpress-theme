@@ -163,4 +163,9 @@ article .dyo-promo.only-phone {
 	{
 		display: none !important;
 	}
+	
+	.seats .heading h1 em
+	{
+		display: block;
+	}
 }	
