@@ -87,7 +87,7 @@ article .dyo-promo.only-phone {
 	
 .pagination {
     max-width: 770px !important;
-    width: 100%;
+    width: 100%  !important;
 }
  	
 @media only screen and (max-width : 1232px) {
