@@ -16,6 +16,12 @@
 ?>
 <?php Starkers_Utilities::get_template_parts( array( 'html-header', 'header' ) ); ?>
 
+<style>
+	.promo .privacy p
+	{
+		margin-top: -10px !important;
+	}
+</style>
 
 
 <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>

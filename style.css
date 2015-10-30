@@ -142,3 +142,25 @@ article .dyo-promo.only-phone {
 		width: 100%;
 	} 
 }
+
+.show-for-small-phone
+{
+	display: none !important;
+}
+	
+.hide-for-small-phone
+{
+	display: block !important;
+}
+	
+@media only screen and (max-width : 599px) {
+	.show-for-small-phone
+	{
+		display: block !important;
+	}
+	
+	.hide-for-small-phone
+	{
+		display: none !important;
+	}
+}	
