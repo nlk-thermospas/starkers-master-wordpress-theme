@@ -84,6 +84,11 @@ margin-bottom: 20px;
 article .dyo-promo.only-phone {
 	display: none;
 }
+
+#field_4_6 {
+    width: 100% !important;
+    max-width: 127px !important;
+}
 	
 .pagination {
     max-width: 770px !important;
