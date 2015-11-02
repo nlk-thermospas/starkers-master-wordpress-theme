@@ -9,7 +9,7 @@
 </div>
 
 <?php
-
+	global $post;
 	$testimonials = get_post_meta($post->ID, 'sidebar_testimonial');
 
 	if(isset($testimonials[0])) {
