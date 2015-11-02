@@ -9,9 +9,13 @@
 </div>
 
 <?php
-
-	$testimonials = get_post_meta($post->ID, 'sidebar_testimonial');
-
+	
+	if(is_single()){
+		$testimonials = get_post_meta($post->ID, 'sidebar_testimonial');
+	}else {
+		$testimonials = array();
+	}
+	
 	if(isset($testimonials[0])) {
 		$testimonials = $testimonials[0];
 	}
