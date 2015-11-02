@@ -57,8 +57,9 @@
 			</div>
 		</article>
 	<?php else: ?>
-
-		<h2>No results found for '<?php echo get_search_query(); ?>'</h2>
+		<article>
+			<h2>No results found for '<?php echo get_search_query(); ?>'</h2>
+		</article>
 
 	<?php endif; ?>
 
