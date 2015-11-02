@@ -85,7 +85,11 @@ article .dyo-promo.only-phone {
 	display: none;
 }
 	
-		 	
+.pagination {
+    max-width: 770px !important;
+    width: 100%  !important;
+}
+ 	
 @media only screen and (max-width : 1232px) {
 	.warrantycol2 {
 		float: left;
