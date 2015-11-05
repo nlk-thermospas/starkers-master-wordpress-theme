@@ -1,7 +1,18 @@
 <?php Starkers_Utilities::get_template_parts( array( 'html-header', 'header' ) ); ?>
 
 <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
-
+	
+	<style>
+		.secondary .gform_wrapper, .secondary #gforms_confirmation_message
+		{
+			padding-top: 20px;
+		}
+		
+		.gform_wrapper form .gform_body ul li input[type="text"], .gform_wrapper form .gform_body ul li select
+		{
+			float: none;
+		}
+	</style>
 	<div class="heading">
 		<h1>
 			<?php
