@@ -94,7 +94,12 @@ article .dyo-promo.only-phone {
     max-width: 770px !important;
     width: 100%  !important;
 }
- 	
+
+.bv-cleanslate .bv-core-container-61 .bv-content-header-meta
+{
+	
+} 	
+
 @media only screen and (max-width : 1232px) {
 	.warrantycol2 {
 		float: left;
@@ -176,5 +181,18 @@ article .dyo-promo.only-phone {
 	.heading .seats h1 em
 	{
 		display: block;
+	}
+}	
+
+@media only screen and (max-width : 450px) {
+	.bv-cleanslate .bv-core-container-61 .bv-content-header-meta
+	{
+		margin-top: 30px !important;
+	}
+	
+	.bv-cleanslate .bv-core-container-61 .bv-content-badges-container
+	{
+		left: 52px !important;
+		width: 100% !important;
 	}
 }	
