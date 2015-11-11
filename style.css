@@ -185,12 +185,12 @@ article .dyo-promo.only-phone {
 }	
 
 @media only screen and (max-width : 450px) {
-	.bv-cleanslate .bv-core-container-61 .bv-content-header-meta
+	#BVRRContainer .bv-cleanslate .bv-core-container-61 .bv-content-header-meta
 	{
 		margin-top: 30px !important;
 	}
 	
-	.bv-cleanslate .bv-core-container-61 .bv-content-badges-container
+	#BVRRContainer .bv-cleanslate .bv-core-container-61 .bv-content-badges-container
 	{
 		left: 52px !important;
 		width: 100% !important;
