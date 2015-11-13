@@ -193,6 +193,6 @@ article .dyo-promo.only-phone {
 	#BVRRContainer .bv-cleanslate .bv-shared .bv-content-badges-container
 	{
 		left: 52px !important;
-		width: 100% !important;
+		xwidth: 100% !important;
 	}
 }	
