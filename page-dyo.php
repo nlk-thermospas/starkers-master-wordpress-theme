@@ -5,7 +5,7 @@
 ?>
 
 <?php Starkers_Utilities::get_template_parts( array( 'html-header', 'header' ) ); ?>
-
+	<link rel="stylesheet" href="/dress/css/dyo.css" />
 	<div class="heading">
 		<h1>Design Your Own Hot Tub</h1>
 	</div>
