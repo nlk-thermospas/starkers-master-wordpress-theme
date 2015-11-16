@@ -12,7 +12,7 @@
 
 	<div class="primary">
 
-		<article>
+		<article class="iframearticle">
 
 			<iframe src="http://thermospas-dyo.herokuapp.com?display=false/"></iframe>
 
