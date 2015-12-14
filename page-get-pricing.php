@@ -1,4 +1,4 @@
-<?php Starkers_Utilities::get_template_parts( array( 'html-header', 'header' ) ); ?>
+<?php Starkers_Utilities::get_template_parts( array( 'html-header', 'header-nomenu' ) ); ?>
 
 <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
 
