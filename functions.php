@@ -24,8 +24,18 @@
 	Uncomment register_nav_menus to enable a single menu with the title of "Primary Navigation" in your theme
 
 	======================================================================================================================== */
-
-	add_theme_support('post-thumbnails');
+	
+	add_action( 'after_setup_theme', 'starker_setup' );
+	
+	function starker_setup() {
+		register_nav_menus( array(
+			'primary' => __( 'Primary Menu', 'starker' ),
+		) );
+		
+		add_theme_support('post-thumbnails');
+	}	
+	
+	
 
 	// register_nav_menus(array('primary' => 'Primary Navigation'));
 
