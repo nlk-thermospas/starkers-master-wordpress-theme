@@ -304,6 +304,7 @@ $bv = new BV(
 							<script type="text/javascript">
 							  $BV.ui( 'rr', 'show_reviews', {
 							    doShowContent : function () {
+							    	console.log('show reviews');
                                     jQuery("#show_reviews").click();
 							    }
 							  });
