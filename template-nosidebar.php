@@ -36,6 +36,7 @@
 			?>
 		</h1>
 	</div>
+	
 
 <?php global $post; ?>
 
