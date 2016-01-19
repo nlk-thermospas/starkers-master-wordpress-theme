@@ -16,6 +16,11 @@
 		display: none !important;	
 	}
 	
+	.container
+	{
+		background: #FFF !important;	
+	}
+	
 	article {
 	    width: 100%;
 	    margin: 0px;
