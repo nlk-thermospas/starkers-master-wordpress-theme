@@ -45,7 +45,6 @@
 				<?php the_content(); ?>
 			</article>
 		</div>
-
 <?php endwhile; ?>
 <?php Starkers_Utilities::get_template_parts( array( 'footer' ) ); ?>
 
