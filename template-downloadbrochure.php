@@ -48,8 +48,8 @@
 					<div class="row">
 						<div class="col-xs-12">
 							<div class="">
-								<h1>Get a <span>FREE</span> Brochure, DVD</h1>
-								<h1>& $1,000 Savings Coupon!</h1>
+								<h1>Get Your <span>FREE</span> Brochure, DVD Videos</h1>
+								<h1>&amp; $1,000 Savings Coupon!</h1>
 							</div>
 						</div>
 					</div>
@@ -151,7 +151,7 @@
 					<div class="row">
 						<div class="col-xs-12 col-sm-6 col-md-6 testimonialText">
 							<p>
-								"After viewing the free DVD and information package from ThermoSpas, I decided to purchase the ThermoSpas for 2 reasons. First, was jets, jets and more jets! The second reason was the unique insulation system."
+								"After viewing the free information from ThermoSpas, I decided to purchase the ThermoSpas for 2 reasons. First, was jets, jets and more jets! The second reason was the unique insulation system."
 							</p>
 							<p class="person">
 								– Sharon M.
