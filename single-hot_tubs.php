@@ -124,7 +124,7 @@ $bv = new BV(
 						<li><a href="#options">Options</a></li>
 						<li><a href="#specs">Specs</a></li>
 						<li><a href="#warranty">Warranty</a></li>
-						<li><a href="#reviews">Reviews</a></li>
+						<li><a href="#reviews" id="show_reviews">Reviews</a></li>
 					</ul>
 					<div id="features" class="tab">
 						<p><?php $features_text = pods_field('features_text'); echo $features_text[0]; ?></p>
@@ -304,8 +304,8 @@ $bv = new BV(
 							<script type="text/javascript">
 							  $BV.ui( 'rr', 'show_reviews', {
 							    doShowContent : function () {
-							      // If the container is hidden (such as behind a tab), put code here to make it visible
-							      // (open the tab).
+							    	console.log('show reviews');
+                                    jQuery("#show_reviews").click();
 							    }
 							  });
 							</script>
