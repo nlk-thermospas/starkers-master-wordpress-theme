@@ -48,8 +48,8 @@
 					<div class="row">
 						<div class="col-xs-12">
 							<div class="">
-								<h1>Get Your <span>FREE</span> Brochure, DVD Videos</h1>
-								<h1>&amp; $1,000 Savings Coupon!</h1>
+								<h1>Get Your <span>FREE</span> Brochure, DVD</h1>
+								<h1>Videos &amp; $1,000 Savings Coupon!</h1>
 							</div>
 						</div>
 					</div>
