@@ -18,8 +18,35 @@
 			$uriArr = explode('/', $uri);
 		?>
 
+		<style type="text/css">
+			.stripe .nav > ul > li
+			{
+				margin-right: 25px;
+			}
+			
+			@media only screen and (min-width : 1022px) and (max-width : 1200px) {
+				.stripe .nav > ul > li
+				{
+					margin-right: 20px;
+				}
+				
+				.stripe .nav>ul>li>a {
+    				font: 700 14px/93px 'Open Sans Condensed', sans-serif;
+    			}	
+			}	
+		</style>
 		<div class="nav">
 			<a class="touch-activator"></a>
+			<?php 
+							wp_nav_menu( array(
+								'menu'       => 'mainmenu',
+								'depth'      => 3,
+								'container'  => false,
+								'menu_class' => 'nav navbar-nav',
+								'fallback_cb' => 'wp_page_menu')
+							); 
+			?>
+			<?php /* ?>
 			<ul>
 				<?php if($uriArr[1] == "hot-tubs") { ?>
 				<li class="current">
@@ -138,6 +165,7 @@
 					<a href="/blog">Blog</a>
 				</li>
 			</ul>
+			<?php */ ?>
 		</div>
 		<div class="search">
 			<form role="search" method="get" id="searchform" action="<?php echo home_url( '/' ); ?>">
