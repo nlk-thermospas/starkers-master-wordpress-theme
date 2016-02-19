@@ -16,6 +16,11 @@
 		display: none !important;	
 	}
 	
+	.container
+	{
+		background: #FFF !important;	
+	}
+	
 	article {
 	    width: 100%;
 	    margin: 0px;
@@ -41,23 +46,7 @@
 
 		<div class="primary">
 			<article>
-				<div class="grid getpricingnew">
-				  <div class="grid__col grid__col--6-of-12">
-				    <?php the_content(); ?>
-				  </div>
-				  <div class="grid__col grid__col--6-of-12">
-				    <div class="hero-box">
-						<div class="grid">
-							<div class="grid__col grid__col--7-of-12 hero-box-text">
-								<?php the_field('call-outs'); ?>
-							</div>
-							<div class="grid__col grid__col--5-of-12">
-								<div class="hero-box-image"></div>
-							</div>
-						</div>
-					</div>
-				  </div>
-				</div>
+				<?php the_content(); ?>
 			</article>
 		</div>
 
