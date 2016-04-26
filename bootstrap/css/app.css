@@ -1270,5 +1270,24 @@ footer ul.social li a:hover {}
 		margin-left: auto;
 		margin-right: auto;
 	}
+	
+	.bannerandform .formcase {
+		overflow: hidden;
+	}
+	
+	.blockspan h1:first-child
+	{
+		margin-bottom: 0px;
+	}
+	
+	.stripe .nav>ul
+	{
+		top: 88px;
+	}
+	
+	#bannerblock h1.nomarginsmall
+	{
+		margin-bottom: 0px;
+	}
 }
 

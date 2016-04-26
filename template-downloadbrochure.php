@@ -48,7 +48,7 @@
 					<div class="row">
 						<div class="col-xs-12">
 							<div class="">
-								<h1>Get Your <span>FREE</span> Brochure, DVD</h1>
+								<h1 class="nomarginsmall">Get Your <span>FREE</span> Brochure, DVD</h1>
 								<h1>Videos &amp; $1,000 Savings Coupon!</h1>
 							</div>
 						</div>
@@ -118,7 +118,7 @@
 						<img src="<?php bloginfo('template_url'); ?>/bootstrap/images/couple_image_shadow.jpg" class="img-responsive float-right-md"/>
 					</div>
 					<div class="col-xs-12 col-sm-6 col-md-7 recommend contenttext">
-						<h2>Access Essential<br/>ThermoSpas&reg; Resources</h2>
+						<h2>Access Essential <br/>ThermoSpas&reg; Resources</h2>
 						<ul>
 							<li>
 								$1,000 Savings Coupon
