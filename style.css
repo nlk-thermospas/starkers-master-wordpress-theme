@@ -183,7 +183,37 @@ article .dyo-promo.only-phone {
 {
 	display: block !important;
 }
-	
+
+/* BV Rating Summary CSS */
+
+.reviews .bv-cleanslate .bv-core-container-60 .bv-summary-bar-minimalist-horizontal .bv-stars-container
+{
+	margin-right: 0px !important;
+}
+
+.reviews .bv-cleanslate .bv-core-container-60 .bv-primarySummary-rating-container .bv-rating-stars-container .bv-rating-stars
+{
+	font-size: 18.5px !important;
+}	
+
+.reviews .bv-cleanslate .bv-core-container-60 .bv-stars-container dd
+{
+	padding-right: 5px !important;
+}
+
+.reviews .bv-cleanslate .bv-core-container-60 .bv-summary-bar .bv-rating-ratio-number .bv-rating, .reviews .bv-cleanslate .bv-core-container-60 .bv-summary-bar .bv-rating-ratio-count
+{
+	line-height: 20px !important;
+	font-size: 12px !important;
+}
+
+.reviews .bv-cleanslate .bv-core-container-60 .bv-summary-bar-minimalist .bv-write-container .bv-submission-button.bv-write-review, .reviews .bv-cleanslate .bv-core-container-60 .bv-summary-bar-minimalist .bv-read-container .bv-submission-button.bv-write-review
+{
+	margin-right: 5px !important;
+	font-size: 13px !important;
+	line-height: 20px !important;
+}
+
 @media only screen and (max-width : 599px) {
 	.show-for-small-phone
 	{
