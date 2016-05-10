@@ -33,10 +33,10 @@ $bv = new BV(
 
 <script type="text/javascript">
 	$BV.configure('global', { productId : '<?=$bazaarVoiceID[0]?>' });
-	$BV.ui( 'rr', 'inline_ratings', {
+<?php /*	$BV.ui( 'rr', 'inline_ratings', {
 		productIDs : ['<?=$bazaarVoiceID[0]?>'],
 		containerPrefix : 'BVRRInlineRating'
-	});
+	}); */ ?>
 </script>
 
 <div class="heading">
@@ -68,7 +68,8 @@ $bv = new BV(
 					Jets: <?php $jets = pods_field('jets'); echo $jets[0]; ?></p>
 			</div>
 			<div class="reviews">
-				<div id="BVRRInlineRating-<?=$bazaarVoiceID[0]?>"></div>
+				<div id="BVRRSummaryContainer"></div>
+				<?php /* <div id="BVRRInlineRating-<?=$bazaarVoiceID[0]?>"></div> */ ?>
 			</div>
 			<div class="blurb">
 				<p><?php $blurb = pods_field('blurb'); echo $blurb[0]; ?></p>
