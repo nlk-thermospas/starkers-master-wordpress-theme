@@ -214,7 +214,7 @@ article .dyo-promo.only-phone {
 	line-height: 20px !important;
 }
 
-
+.gform_wrapper form .gform_body ul li input[type=text],
 .gform_wrapper form .gform_body ul li input[type=number],
 .gform_wrapper form .gform_body ul li input[type=tel],
 .gform_wrapper form .gform_body ul li input[type=email] {
