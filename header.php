@@ -35,6 +35,13 @@
     			}	
 			}	
 		</style>
+		<script type="text/javascript">
+			jQuery(document).ready(function(){
+				jQuery('.zipcode input').attr('type', 'number');
+				//jQuery('.zipcode input').attr('pattern', '\d*');
+				//console.log('\d{10}');
+			});
+		</script>
 		<div class="nav">
 			<a class="touch-activator"></a>
 			<?php 

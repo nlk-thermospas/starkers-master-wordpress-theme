@@ -196,7 +196,7 @@ body {
 	margin-bottom: 0px;
 }
 
-.formmenu input[type="text"], .formmenu input[type="email"], .formmenu input[type="integer"] {
+.formmenu input[type="text"], .formmenu input[type="email"], .formmenu input[type="integer"], .formmenu input[type="tel"], .formmenu input[type="number"] {
 	width: 245px;
 	height: 35px;
 	margin-bottom: 10px;

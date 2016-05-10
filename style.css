@@ -214,6 +214,82 @@ article .dyo-promo.only-phone {
 	line-height: 20px !important;
 }
 
+
+.gform_wrapper form .gform_body ul li input[type=number],
+.gform_wrapper form .gform_body ul li input[type=tel],
+.gform_wrapper form .gform_body ul li input[type=email] {
+	display: block;
+    width: 100%;
+    height: 32px;
+    padding: 0px 0px 0px 10px;
+    font: 400 12px/32px "Open Sans" sans-serif;
+    color: #A6A8AB;
+    border: 1px solid #dbe0e5;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-box-shadow: inset 0px 0px 2px 2px rgba(242,242,242,1);
+    -moz-box-shadow: inset 0px 0px 2px 2px rgba(242,242,242,1);
+    box-shadow: inset 0px 0px 2px 2px rgba(242,242,242,1);
+}
+
+.gform_wrapper form.formv2 .gform_body ul li input[type=number],
+.gform_wrapper form.formv2 .gform_body ul li input[type=tel],
+.gform_wrapper form.formv2 .gform_body ul li input[type=email] {
+	display: block;
+    float: left;
+    width: 100%;
+    height: 32px;
+    margin-top: 12px;
+    padding: 0px 0px 0px 10px;
+    font: 400 12px/32px "Open Sans" sans-serif;
+    color: #A6A8AB;
+    border: 1px solid #dbe0e5;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-box-shadow: inset 0px 0px 2px 2px rgba(242,242,242,1);
+    -moz-box-shadow: inset 0px 0px 2px 2px rgba(242,242,242,1);
+    box-shadow: inset 0px 0px 2px 2px rgba(242,242,242,1);
+}
+
+.gform_wrapper form .gform_body ul li.half-left
+{
+	width: 41% !important;
+	margin-right: 5% !important;
+	margin-bottom: 12px !important;
+}
+
+.gform_wrapper form .gform_body ul li.half-right
+{
+	width: 54% !important;
+	margin-bottom: 12px !important;
+	float: right !important;
+}
+
+.zipcode input[type=number]::-webkit-inner-spin-button, 
+.zipcode input[type=number]::-webkit-outer-spin-button { 
+	-webkit-appearance: none; 
+	margin: 0; 
+}
+			
+.zipcode input[type=number]
+{
+	-moz-appearance:textfield;
+}
+
+.gform_wrapper form .gform_body ul li.margintop12 input
+{
+	margin-top: 12px !important;
+}
+
+
+.gform_wrapper form .gform_body ul li.width55 input
+{
+	max-width: 55% !important;
+	margin-left: 6px !important;
+}
+
 @media only screen and (max-width : 599px) {
 	.show-for-small-phone
 	{
@@ -228,6 +304,11 @@ article .dyo-promo.only-phone {
 	.heading .seats h1 em
 	{
 		display: block;
+	}
+	
+	.gform_wrapper form .gform_body ul li.width55 input
+	{
+		margin-left: 0px !important;
 	}
 }	
 
