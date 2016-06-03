@@ -160,6 +160,11 @@ article .dyo-promo.only-phone {
 		width: 100%;
 		height: 800px;
 	}
+	
+	.home .promo .gforms_confirmation_message
+	{
+		padding-top: 130px;
+	}
 }
 
 @media only screen and (max-width : 480px) {

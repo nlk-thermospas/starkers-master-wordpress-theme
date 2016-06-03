@@ -23,8 +23,10 @@
 <script type="text/javascript">
 			jQuery(document).ready(function(){
 				jQuery('.zipcode input').attr('type', 'number');
-				//jQuery('.zipcode input').attr('pattern', '\d*');
+				jQuery('.zipcode input').attr('pattern', '[0-9]*');
+				jQuery('.zipcode input').attr('inputmode', 'numeric');
 				//console.log('\d{10}');
 			});
+			
 </script>
 <div class="container">
