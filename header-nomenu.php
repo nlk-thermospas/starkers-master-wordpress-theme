@@ -27,5 +27,6 @@
 				jQuery('.zipcode input').attr('inputmode', 'numeric');
 				//console.log('\d{10}');
 			});
+			
 </script>
 <div class="container">
