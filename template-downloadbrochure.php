@@ -19,6 +19,8 @@
 		jQuery(document).ready(function(){
 			jQuery('.gform_footer').append('<span class="requiredSpan">*Indicates required field</span>');
 			jQuery('.zipcode input').attr('type', 'number');
+			jQuery('.zipcode input').attr('pattern', '[0-9]*');
+			jQuery('.zipcode input').attr('inputmode', 'numeric');
 		});
 	</script>
 	<style>
