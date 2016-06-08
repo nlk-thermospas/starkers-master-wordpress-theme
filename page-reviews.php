@@ -54,11 +54,8 @@ if($main != "") {
 					}
 				});
 				function submitGeneric() {
-				    $BV.ui(
-				        "rr",
-				        "submit_generic",
-				        { "categoryId" : "TS" }
-				    );
+				    $BV.ui("rr", "submit_generic", {
+				    });
 				}
 			</script>
 				<?=apply_filters('the_content', $post->post_content) ?>
