@@ -284,6 +284,10 @@ article .dyo-promo.only-phone {
 	margin-left: 6px !important;
 }
 
+.gform_wrapper form .gform_body ul li.gfield_error  input[type="text"], .gform_wrapper form .gform_body ul li.gfield_error  input[type="number"], .gform_wrapper form .gform_body ul li.gfield_error  input[type="tel"], .gform_wrapper form .gform_body ul li.gfield_error input[type="email"] {
+    border: 1px solid red;
+}
+
 @media only screen and (max-width : 599px) {
 	.show-for-small-phone
 	{

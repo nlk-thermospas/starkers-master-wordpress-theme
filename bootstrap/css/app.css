@@ -1104,6 +1104,15 @@ footer ul.social li a, .footer ul.social li a {
 }
 footer ul.social li a:hover {}
 
+.gform_wrapper form .gform_body ul li.gfield_error  input[type="text"], .gform_wrapper form .gform_body ul li.gfield_error  input[type="number"], .gform_wrapper form .gform_body ul li.gfield_error  input[type="tel"], .gform_wrapper form .gform_body ul li.gfield_error input[type="email"] {
+    border: 1px solid red !important;
+}
+
+.validation_error
+{
+	display: none !important;	
+}
+
 @media (min-width: 768px) {
 	
 	.formmenu .gform_button.button
