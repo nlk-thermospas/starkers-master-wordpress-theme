@@ -1108,7 +1108,7 @@ footer ul.social li a:hover {}
     border: 1px solid red !important;
 }
 
-.validation_error
+.validation_error, .validation_message
 {
 	display: none !important;	
 }
