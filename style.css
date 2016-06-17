@@ -163,7 +163,13 @@ article .dyo-promo.only-phone {
 	
 	.home .promo .gforms_confirmation_message
 	{
-		padding-top: 130px;
+		padding-top: 130px !important;
+	}
+	
+	#formcontent .gform_footer, #formcontent .gform_confirmation_wrapper
+	{
+		position: relative;
+		z-index: 9999;
 	}
 }
 
@@ -293,6 +299,10 @@ article .dyo-promo.only-phone {
 {
 	max-width: 55% !important;
 	margin-left: 6px !important;
+}
+
+.gform_wrapper form .gform_body ul li.gfield_error  input[type="text"], .gform_wrapper form .gform_body ul li.gfield_error  input[type="number"], .gform_wrapper form .gform_body ul li.gfield_error  input[type="tel"], .gform_wrapper form .gform_body ul li.gfield_error input[type="email"] {
+    border: 1px solid red;
 }
 
 @media only screen and (max-width : 599px) {
