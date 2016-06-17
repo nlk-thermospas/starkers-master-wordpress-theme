@@ -163,7 +163,7 @@
 			}
 			$sql .= "(name, zipcode, phone, email, iref, ht_date)";
 			$sql .= "VALUES";
-			$sql .=	"('" . mysql_real_escape_string($entries[9]) . "', '" . mysql_real_escape_string($entries[4]) . "', '" . mysql_real_escape_string($entries[20]) . "', '" . mysql_real_escape_string($entries[8]) . "', '" . $iref . "', '" . date("Y-m-d") . "')";
+			$sql .=	"('" . mysql_real_escape_string($entries[9]) . "', '" . mysql_real_escape_string($entries[4]) . "', '" . mysql_real_escape_string($entries[18]) . "', '" . mysql_real_escape_string($entries[8]) . "', '" . $iref . "', '" . date("Y-m-d") . "')";
 		} elseif($entries['form_id'] == 2) { //sidebar
 			$iref = "iSide";
 			$comments = '{"Joing Mailing List" : "No"}';
@@ -172,7 +172,7 @@
 			}
 			$sql .= "(name, zipcode, phone, email, comments, iref, ht_date)";
 			$sql .= "VALUES";
-			$sql .=	"('" . mysql_real_escape_string($entries[8]) . "', '" . mysql_real_escape_string($entries[2]) . "', '" . mysql_real_escape_string($entries[14]) . "', '" . mysql_real_escape_string($entries[7]) . "', '" . $comments . "', '" . $iref . "', '" . date("Y-m-d") . "')";
+			$sql .=	"('" . mysql_real_escape_string($entries[8]) . "', '" . mysql_real_escape_string($entries[2]) . "', '" . mysql_real_escape_string($entries[13]) . "', '" . mysql_real_escape_string($entries[7]) . "', '" . $comments . "', '" . $iref . "', '" . date("Y-m-d") . "')";
 		} elseif($entries['form_id'] == 3) { //dvd/brochure
 			$iref = "iDVD";
 			$comments = '{"Joing Mailing List" : "No"}';
