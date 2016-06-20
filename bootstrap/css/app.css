@@ -1281,3 +1281,22 @@ footer ul.social li a:hover {}
 	}
 }
 
+
+@media screen and (-webkit-min-device-pixel-ratio:0) { 
+  select,
+  textarea,
+  input {
+    font-size: 16px !important;
+  }
+  
+  .gform_confirmation_message
+  {
+  	padding-top: 30px !important;
+  }
+  
+  .free-quote .gform_confirmation_message
+  {
+  	padding-top: 50px !important;
+  }
+  
+}
