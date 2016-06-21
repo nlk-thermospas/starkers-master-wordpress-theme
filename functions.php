@@ -192,7 +192,7 @@
 			$iref = "iPrice";
 			$sql .= "(name, zipcode, phone, email, iref, ht_date)";
 			$sql .= "VALUES";
-			$sql .=	"('" . mysql_real_escape_string($entries[8]) . "', '" . mysql_real_escape_string($entries[2]) . "', '" . mysql_real_escape_string($entries[16]) . "', '" . mysql_real_escape_string($entries[7]) . "', '" . $iref . "', '" . date("Y-m-d") . "')";
+			$sql .=	"('" . mysql_real_escape_string($entries[8]) . "', '" . mysql_real_escape_string($entries[2]) . "', '" . mysql_real_escape_string($entries[17]) . "', '" . mysql_real_escape_string($entries[7]) . "', '" . $iref . "', '" . date("Y-m-d") . "')";
 		}
 
 		if($conn->query($sql) === false) {
