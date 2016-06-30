@@ -283,6 +283,9 @@ article .dyo-promo.only-phone {
 	max-width: 55% !important;
 	margin-left: 6px !important;
 }
+.gform_wrapper form .gform_body ul li.gfield_error input {
+    border: 1px solid red !important;
+}
 
 @media only screen and (max-width : 599px) {
 	.show-for-small-phone
