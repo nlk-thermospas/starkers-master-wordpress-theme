@@ -300,6 +300,9 @@ article .dyo-promo.only-phone {
 	max-width: 55% !important;
 	margin-left: 6px !important;
 }
+.gform_wrapper form .gform_body ul li.gfield_error input {
+    border: 1px solid red !important;
+}
 
 .gform_wrapper form .gform_body ul li.gfield_error  input[type="text"], .gform_wrapper form .gform_body ul li.gfield_error  input[type="number"], .gform_wrapper form .gform_body ul li.gfield_error  input[type="tel"], .gform_wrapper form .gform_body ul li.gfield_error input[type="email"] {
     border: 1px solid red;
