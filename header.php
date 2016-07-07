@@ -2,7 +2,7 @@
 	<header class="header">
 		<div class="utility">
 			<ul>
-				<li class="call"><a href="tel:1-800-876-0158">Call Us <strong>1-800-603-3556</strong></a></li>
+				<li class="call"><a href="tel:1-800-603-3556">Call Us <strong>1-800-603-3556</strong></a></li>
 				<li class="pricing"><a href="/get-pricing">Get Pricing</a></li>
 			</ul>
 		</div>
