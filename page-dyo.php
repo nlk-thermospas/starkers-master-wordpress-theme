@@ -14,17 +14,12 @@
 
 		<article class="iframearticle">
 			<?php 
-			
-				if(isset($_GET['iref'])&& $_GET['iref'] !='')
-				{
-					echo '<iframe src="https://shining-heat-2332.firebaseapp.com/?iref='.trim($_GET['iref']).'"></iframe>';
+				if( thermo_server() == 'live' ) {
+					echo '<iframe src="https://shining-heat-2332.firebaseapp.com/' . (isset($_GET['iref']) && $_GET['iref'] !='' ? '?iref='.trim($_GET['iref']) : '' ).'"></iframe>';
+				} else {
+					echo '<iframe src="https://thermospas-dyo-staging.firebaseapp.com/' . (isset($_GET['iref']) && $_GET['iref'] !='' ? '?iref='.trim($_GET['iref']) : '' ).'"></iframe>';
 				}
-				else
-				{
-					echo '<iframe src="https://shining-heat-2332.firebaseapp.com"></iframe>';
-				}	
 			?>
-
 		</article>
 
 
