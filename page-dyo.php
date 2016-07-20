@@ -23,7 +23,6 @@
 		<?php Starkers_Utilities::get_template_parts( array( 'footer' ) ); ?>
 
 	</div>
-
 <div style="clear: both;">&nbsp;</div>
 
 </div>
