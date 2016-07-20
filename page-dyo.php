@@ -13,7 +13,6 @@
 	<div class="primary">
 
 		<article class="iframearticle">
-			<iframe src="https://shining-heat-2332.firebaseapp.com"></iframe>
 			<?php 
 				if( thermo_server() == 'live' ) {
 					echo '<iframe src="https://shining-heat-2332.firebaseapp.com/' . (isset($_GET['iref']) && $_GET['iref'] !='' ? '?iref='.trim($_GET['iref']) : '' ).'"></iframe>';
