@@ -12,7 +12,7 @@
 
 	<div class="primary">
 		<!-- Updated for staging / THERMO-148 -->
-		<article class="iframearticle">
+		<article class="iframearticle thermo-148-stag">
 			<?php if ( function_exists('thermo_server') && thermo_server() != 'live' ) { ?>
 				<iframe src="https://thermospas-dyo-staging.firebaseapp.com/<?php echo (isset($_GET['iref']) && $_GET['iref'] !='' ? '?iref='.trim($_GET['iref']) : '' ); ?>"></iframe>
 			<?php } else { ?>
