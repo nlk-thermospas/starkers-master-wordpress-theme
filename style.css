@@ -321,4 +321,13 @@ article .dyo-promo.only-phone {
 		width: 100% !important;
 	}
 	
-}	
+}
+
+@media only screen and (min-width : 1280px){
+
+  .call a{
+   pointer-events: none;
+  }
+
+}
+	
