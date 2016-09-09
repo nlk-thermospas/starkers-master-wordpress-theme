@@ -10,7 +10,7 @@
 		<h1>Design Your Own Hot Tub</h1>
 	</div>
 
-	<div class="primary">
+	<div class="primary iframe-dyo">
 		<!-- Updated for staging / THERMO-148 -->
 		<article class="iframearticle thermo-148-stag">
 			<?php if ( function_exists('thermo_server') && thermo_server() != 'live' ) { ?>
