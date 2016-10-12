@@ -55,6 +55,7 @@ if($main != "") {
 				});
 				function submitGeneric() {
 				    $BV.ui("rr", "submit_generic", {
+				    	categoryId : 'ALL CATEGORIES'
 				    });
 				}
 			</script>
