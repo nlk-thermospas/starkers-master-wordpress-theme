@@ -45,9 +45,9 @@ if($main != "") {
 		width: 480,
 		height: 320,
 		stretching: "fill",
-	  <? 
+	  <?
 	  	$rvid = '';
-		
+
 	  	if(isset($_REQUEST['vid']))
 		{
 			$rvid = $_REQUEST['vid'];
@@ -60,12 +60,12 @@ if($main != "") {
 		?>
 		image: "<?php echo home_url( '/' ); ?>wp-content/uploads/2015/01/info-video.jpg",
 		<?
-		$video_id = 'DhGM1dMjHgg';
+		$video_id = 'pJEpes1fPms';
 		$vidtitle = "Thinking of Buying a ThermoSpas Hot Tub? This Information Can Help!";
 		$viddesc = "ThermoSpas offers a variety of different hot tub models that are perfect for whatever your needs are. Whether it's exercise, hot water therapy, entertainment or just for relaxation, ThermoSpas makes a hot tub that will fit with your lifestyle. ";
 		break;
 		case "whoweare":
-		$video_id = 'DhGM1dMjHgg';
+		$video_id = 'pJEpes1fPms';
 		?>
 		image: "<?php echo home_url( '/' ); ?>wp-content/uploads/2015/01/who-are-we-video_2.jpg",
 		<?
@@ -173,7 +173,7 @@ if($main != "") {
 		?>
 		image: "<?php echo home_url( '/' ); ?>wp-content/uploads/2015/01/info-video.jpg",
 		<?
-		$video_id = 'DhGM1dMjHgg';
+		$video_id = 'pJEpes1fPms';
 		$vidtitle = "Thinking of Buying a ThermoSpas Hot Tub? This Information Can Help!";
 		$viddesc = "ThermoSpas offers a variety of different hot tub models that are perfect for whatever your needs are. Whether it's exercise, hot water therapy, entertainment or just for relaxation, ThermoSpas makes a hot tub that will fit with your lifestyle. ";
 		break;
