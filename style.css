@@ -336,6 +336,6 @@ article .dyo-promo.only-phone {
 		display: none;
 	}
 	.imgMobile {
-		display: block;
+		display: block!important;
 	}
 }
