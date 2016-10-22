@@ -331,7 +331,7 @@ article .dyo-promo.only-phone {
 
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
 	.ytLightbox {
 		display: none;
 	}
