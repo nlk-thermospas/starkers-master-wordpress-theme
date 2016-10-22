@@ -336,3 +336,9 @@ article .dyo-promo.only-phone {
 		display: none;
 	}
 }
+
+@media screen and (min-width: 769px) {
+	.imgMobile {
+		display: none;
+	}
+}
