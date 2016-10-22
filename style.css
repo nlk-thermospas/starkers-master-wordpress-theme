@@ -27,15 +27,15 @@ margin-bottom: 0px;
 width: 40%;
 float:left;
 display:table;
-white-space:nowrap; 
+white-space:nowrap;
 }
 
 .bulletcol2 {
 width: 60%;
 float:left;
 display:table;
-white-space:nowrap; 
-} 
+white-space:nowrap;
+}
 
 
 .warrantycol2 {
@@ -47,7 +47,7 @@ margin-left: 20px;
 width: 70%;
 float: left;
 margin-bottom: 20px;
-} 
+}
 
 .ui-datepicker td.ui-state-disabled span
 {
@@ -89,7 +89,7 @@ article .dyo-promo.only-phone {
     width: 100% !important;
     max-width: 127px !important;
 }
-	
+
 .pagination {
     max-width: 770px !important;
     width: 100%  !important;
@@ -97,18 +97,18 @@ article .dyo-promo.only-phone {
 
 .bv-cleanslate .bv-core-container-61 .bv-content-header-meta
 {
-	
-} 	
+
+}
 
 @media only screen and (max-width : 1232px) {
 	.warrantycol2 {
 		float: left;
 		max-width: 35%;
-		
+
 	}
 	.warrantycol1 {
 		width: 60%;
-	} 
+	}
 }
 
 
@@ -119,7 +119,7 @@ article .dyo-promo.only-phone {
 	}
 	.warrantycol1 {
 		width: 70%;
-	} 
+	}
 }
 
 @media only screen and (max-width : 790px) {
@@ -129,27 +129,27 @@ article .dyo-promo.only-phone {
 	}
 	.warrantycol1 {
 		width: 55%;
-	} 
+	}
 }
 
 
 @media only screen and (max-width : 767px) {
-	
+
 	.only-desktop
 	{
 		display: none !important;
 	}
-	
+
 	.only-phone
 	{
 		display: block !important;
 	}
-	
+
 	.home .promo .gforms_confirmation_message
 	{
 		padding-top: 130px !important;
 	}
-	
+
 	#formcontent .gform_footer, #formcontent .gform_confirmation_wrapper
 	{
 		position: relative;
@@ -165,14 +165,14 @@ article .dyo-promo.only-phone {
 	}
 	.warrantycol1 {
 		width: 100%;
-	} 
+	}
 }
 
 .show-for-small-phone
 {
 	display: none !important;
 }
-	
+
 .hide-for-small-phone
 {
 	display: block !important;
@@ -188,7 +188,7 @@ article .dyo-promo.only-phone {
 .reviews .bv-cleanslate .bv-core-container-60 .bv-primarySummary-rating-container .bv-rating-stars-container .bv-rating-stars
 {
 	font-size: 18.5px !important;
-}	
+}
 
 .reviews .bv-cleanslate .bv-core-container-60 .bv-stars-container dd
 {
@@ -261,12 +261,12 @@ article .dyo-promo.only-phone {
 	float: right !important;
 }
 
-.zipcode input[type=number]::-webkit-inner-spin-button, 
-.zipcode input[type=number]::-webkit-outer-spin-button { 
-	-webkit-appearance: none; 
-	margin: 0; 
+.zipcode input[type=number]::-webkit-inner-spin-button,
+.zipcode input[type=number]::-webkit-outer-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
 }
-			
+
 .zipcode input[type=number]
 {
 	-moz-appearance:textfield;
@@ -292,35 +292,35 @@ article .dyo-promo.only-phone {
 	{
 		display: block !important;
 	}
-	
+
 	.hide-for-small-phone
 	{
 		display: none !important;
 	}
-	
+
 	.heading .seats h1 em
 	{
 		display: block;
 	}
-	
+
 	.gform_wrapper form .gform_body ul li.width55 input
 	{
 		margin-left: 0px !important;
 	}
-}	
+}
 
 @media only screen and (max-width : 450px) {
 	#BVRRContainer .bv-cleanslate .bv-shared .bv-content-header-meta
 	{
 		margin-top: 30px !important;
 	}
-	
+
 	#BVRRContainer .bv-cleanslate .bv-shared .bv-content-badges-container
 	{
 		left: 0px !important;
 		width: 100% !important;
 	}
-	
+
 }
 
 @media only screen and (min-width : 1280px){
@@ -330,4 +330,9 @@ article .dyo-promo.only-phone {
   }
 
 }
-	
+
+@media screen and (max-width: 768px) {
+	.ytLightbox {
+		display: none;
+	}
+}
