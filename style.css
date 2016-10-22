@@ -335,10 +335,7 @@ article .dyo-promo.only-phone {
 	.ytLightbox {
 		display: none;
 	}
-}
-
-@media screen and (min-width: 769px) {
 	.imgMobile {
-		display: none;
+		display: block;
 	}
 }
